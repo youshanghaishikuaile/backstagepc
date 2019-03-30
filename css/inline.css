@@ -1,0 +1,108 @@
+.selectlist{
+    height: 30px;
+    width: 300px;
+}
+.input-group{
+    margin-top: 20px;
+}
+.automatic{
+    vertical-align: top;
+    display: inline-block;
+    width: 300px;
+    margin: 0 30px 0 82px;
+}
+.automatic article{
+    text-align: center;
+    background-color: #ccc;
+}
+.initiative{
+    display: inline-block;
+    /* margin-top: 20px; */
+}
+.initiative input{
+   margin: 15px 25px 15px 0;
+}
+.footer{
+    margin-top: 20px;
+}
+.col-lg-8{
+    padding-right:0;
+}
+.save{
+    width: 100px;
+    margin: 50px 35%
+ }
+ .annotation{
+    border-width: 0px;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+}
+.fir{
+    left: 373px;
+    top: -6px;
+}
+.sen{
+    left: 657px;
+    top: 64px;
+}
+.thr{
+    left: 657px;
+    top: 118px;  
+}
+.four{
+    left: 371px;
+    top: -6px;
+}
+.five{
+    left: 374px;
+    top: -6px;
+}
+.sex{
+    left: 564px;
+    top: 274px;
+}
+.sev{
+    left: 503px;
+    bottom: 27px;
+}
+.annnoteimage{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-size: 0px;
+    cursor: help;
+    width: 13px;
+    height: 12px;
+    padding-top: 1px;
+    text-align: center;
+    background-color: #138CDD;
+    box-shadow: 1px 1px 3px #aaa;
+}
+.annnoteline{
+    display: inline-block;
+    width: 9px;
+    height: 1px;
+    border-bottom: 1px solid white;
+    margin-top: 2px;
+}
+.input-group .form-control{
+    z-index: 0;
+}
+.col-lg-8{
+    width: 74.66%;
+}
+.col-lg-8.cache{
+    width: 51.66%;
+}
+.box{
+    position: absolute;
+    width: 68px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 13px;
+    top: 6px;
+    left: 314px;
+}
