@@ -1,0 +1,18 @@
+.container{
+    margin-top: 50px;
+}
+.chose{
+    margin-left: 10px;
+    width: 230px;
+}
+input[type="file"]{
+    display: inline-block;
+    margin-top: 15px;
+}
+.saverecord{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.saverecord input{
+    padding: 5px 15px;
+}
