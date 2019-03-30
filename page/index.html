@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/echarts.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-fluid">
+            <div class="first">
+                <table class="table table-bordered">
+                    <caption>系统信息</caption>
+                    <tr>
+                        <th>版本信息</th>
+                        <td>集群网站管理系统 1.1版本</td>
+                    </tr>
+                    <tr>
+                        <th>域名统计</th>
+                        <td>1000域名</td>
+                    </tr>
+                    <tr>
+                        <th>蜘蛛统计</th>
+                        <td>100000蜘蛛</td>
+                    </tr>
+                    <tr>
+                        <th>磁盘空间</th>
+                        <td>剩余空间多少g</td>
+                    </tr>
+                    <tr>
+                        <th>权限检查</th>
+                        <td>必要开启读取写入的权限目录</td>
+                    </tr>
+                    <tr>
+                        <th>静态页缓存</th>
+                        <td>开启/关闭</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="sencend">
+                <div id="main" style="width:550px;height:400px;"></div>
+            </div>
+            <div class="three">
+                <table class="table table-bordered" style="position: absolute;left: 59%;">
+                    <caption>登入信息</caption>
+                    <tr>
+                        <th>登入用户</th>
+                        <td>admin</td>
+                    </tr>
+                    <tr>
+                        <th>上次登入时间</th>
+                        <td>2019年3月16日</td>
+                    </tr>
+                    <tr>
+                        <th>上次登入ip地址</th>
+                        <td>192.168.1.1</td>
+                    </tr>
+                    <tr>
+                        <th>项目群</th>
+                        <td>888888888</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="footer" style="width:1020px;height:400px;"></div>
+            <div class="four">
+                <table class="table table-bordered" style="margin-left: -31px;">
+                    <caption>文章采集信息</caption>
+                    <tr>
+                        <td>
+                            <p>比尔盖茨新兼职：当时代周刊...</p>
+                            <p>入库成功:2019/3/16 19:11</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>比尔盖茨新兼职：当时代周刊...</p>
+                            <p>入库成功:2019/3/16 19:11</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>比尔盖茨新兼职：当时代周刊...</p>
+                            <p>入库成功:2019/3/16 19:11</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>比尔盖茨新兼职：当时代周刊...</p>
+                            <p>入库成功:2019/3/16 19:11</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>比尔盖茨新兼职：当时代周刊...</p>
+                            <p>入库成功:2019/3/16 19:11</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>比尔盖茨新兼职：当时代周刊...</p>
+                            <p>入库成功:2019/3/16 19:11</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>比尔盖茨新兼职：当时代周刊...</p>
+                            <p>入库成功:2019/3/16 19:11</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>比尔盖茨新兼职：当时代周刊...</p>
+                            <p>入库成功:2019/3/16 19:11</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>比尔盖茨新兼职：当时代周刊...</p>
+                            <p>入库成功:2019/3/16 19:11</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>比尔盖茨新兼职：当时代周刊...</p>
+                            <p>入库成功:2019/3/16 19:11</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>比尔盖茨新兼职：当时代周刊...</p>
+                            <p>入库成功:2019/3/16 19:11</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>比尔盖茨新兼职：当时代周刊...</p>
+                            <p>入库成功:2019/3/16 19:11</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>比尔盖茨新兼职：当时代周刊...</p>
+                            <p>入库成功:2019/3/16 19:11</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>比尔盖茨新兼职：当时代周刊...</p>
+                            <p>入库成功:2019/3/16 19:11</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var myChart = echarts.init(document.getElementById('main'));
+        var myCharts = echarts.init(document.getElementById('footer'));
+        var list = {
+            title: {
+                text: '本月蜘蛛统计'
+            },
+            tooltip: {
+                trigger: 'axis'
+            },
+            legend: {
+                data: ['百度', '360', '搜狗', '神马', '谷歌']
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '3%',
+                containLabel: true
+            },
+            toolbox: {
+                feature: {
+                    saveAsImage: {}
+                }
+            },
+            xAxis: {
+                type: 'category',
+                boundaryGap: false,
+                data: ['周一', '周二', '周三', '周四', '周五', '周六', '周日']
+            },
+            yAxis: {
+                type: 'value'
+            },
+            series: [{
+                    name: '百度',
+                    type: 'line',
+                    stack: '总量',
+                    data: [120, 132, 101, 134, 90, 230, 210]
+                },
+                {
+                    name: '360',
+                    type: 'line',
+                    stack: '总量',
+                    data: [220, 182, 191, 234, 290, 330, 310]
+                },
+                {
+                    name: '搜狗',
+                    type: 'line',
+                    stack: '总量',
+                    data: [150, 232, 201, 154, 190, 330, 410]
+                },
+                {
+                    name: '神马',
+                    type: 'line',
+                    stack: '总量',
+                    data: [320, 332, 301, 334, 390, 330, 320]
+                },
+                {
+                    name: '谷歌',
+                    type: 'line',
+                    stack: '总量',
+                    data: [820, 932, 901, 934, 1290, 1330, 1320]
+                }
+            ]
+        };
+        var option = {
+            // title : {
+            //     x:'center'
+            // },
+            tooltip: {
+                trigger: 'item',
+                formatter: "{a} <br/>{b} : {c} ({d}%)"
+            },
+            legend: {
+                orient: 'vertical',
+                x: '80%',
+                y: '60%',
+                data: ['百度', '搜狗', '神马', '360', '谷歌'],
+            },
+            series: [{
+                name: '访问来源',
+                type: 'pie',
+                radius: '55%',
+                center: ['50%', '60%'],
+                data: [{
+                        value: 335,
+                        name: '百度'
+                    },
+                    {
+                        value: 310,
+                        name: '搜狗'
+                    },
+                    {
+                        value: 234,
+                        name: '神马'
+                    },
+                    {
+                        value: 135,
+                        name: '360'
+                    },
+                    {
+                        value: 1548,
+                        name: '谷歌'
+                    }
+                ],
+                itemStyle: {
+                    emphasis: {
+                        shadowBlur: 10,
+                        shadowOffsetX: 0,
+                        shadowColor: 'rgba(0, 0, 0, 0.5)'
+                    }
+                }
+            }]
+        };
+
+        myChart.setOption(option);
+        myCharts.setOption(list);
+    </script>
+</body>
+
+</html>
