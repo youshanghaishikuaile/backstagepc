@@ -189,3 +189,24 @@
     height: 750px;
     width: 80%;
 }
+.previewBox{
+    display: none;
+    width: 729px;
+    height: 420px;
+    position: fixed;
+    top: 29%;
+    left: 27%;
+    z-index: 777;
+}
+.previewSel{
+   width: 100%;
+}
+.previewBox header{
+    background-color: #999999;
+    overflow: hidden;
+}
+.previewBox span{
+    padding-right: 10px;
+   float: right;
+   cursor: pointer;
+}

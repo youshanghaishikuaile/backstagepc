@@ -99,3 +99,64 @@ input[type="file"]{
     height: 750px;
     width: 80%;
 }
+.box{
+    display: none;
+    position: fixed;
+    top: 13%;
+    left: 15%;
+    z-index: 666;
+    width: 1013px;
+    height: 400px;
+    background-color: #F2F2F2;
+}
+.childBox{
+    display: none;
+    position: fixed;
+    top: 18%;
+    left: 18%;
+    z-index: 667;
+    width: 900px;
+    height: 400px;
+    background-color: #F2F2F2;
+}
+.box header,.childBox header{
+    width: 100%;
+    height: 33px;
+    line-height: 33px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #fff;
+}
+.match input{
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.w1{
+    width: 57px;
+}
+.w2{
+    width: 168px;
+}
+.w3{
+    width: 360px;;
+}
+.w4{
+    width: 101px;
+}
+.close{
+    font-size: 30px;
+    opacity: .5;
+}
+.closeChild{
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 30px;
+    opacity: .5;
+    cursor: pointer;
+}

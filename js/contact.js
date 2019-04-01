@@ -1,0 +1,14 @@
+$(function(){
+    $('.open').click(function(){
+        $('.box').show()
+    })
+    $('.close').click(function(){
+        $('.box').hide()
+    })
+    $('.again').click(function(){
+        $('.childBox').show()
+    })
+    $('.closeChild').click(function(){
+        $('.childBox').hide()
+    })
+})

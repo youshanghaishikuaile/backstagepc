@@ -81,7 +81,7 @@
             </div>
             <div>
                 <div class="input-group col-lg-5">
-                    <span class="input-group-addon">关键词</span>
+                    <span class="input-group-addon">&nbsp;关键词 &nbsp;</span>
                     <input type="text" class="form-control" placeholder="这里输入远程内容地址 如127.0.0.1">
                 </div>
                 <div class="annotation thr">
@@ -149,7 +149,7 @@
                     <span class="input-group-addon">外链管理</span>
                     <div class="row">
                         <div class="col-lg-8"><input type="file" class="form-control"></div>
-                        <div class="col-lg-3"><button type="button" class="btn btn-default">预览文件</button></div>
+                        <div class="col-lg-3 preview"><button type="button" class="btn btn-default">预览文件</button></div>
                     </div>
                 </div>
             </div>
@@ -174,6 +174,41 @@
             <div>
                 <input type="button" value="保存提交" class="save">
             </div>
+            <div class="previewBox">
+                <header><span class="closeBox">关闭</span></header>
+                <select name="" id="" class="previewSel" style="position: absolute;z-index: 1;"
+                onmousedown="if(this.options.length>6){this.size=20}" onblur="this.size=0" onchange="this.size=0" size="20">
+                    <option value="">www.1.com/1.html</option>
+                    <option value="">www.1.com/1.html</option>
+                    <option value="">www.1.com/1.html</option>
+                    <option value="">www.1.com/1.html</option>
+                    <option value="">www.1.com/1.html</option>
+                    <option value="">www.1.com/1.html</option>
+                    <option value="">www.1.com/1.html</option>
+                    <option value="">www.1.com/1.html</option>
+                    <option value="">www.1.com/1.html</option>
+                    <option value="">www.1.com/1.html</option>
+                    <option value="">www.1.com/1.html</option>
+                    <option value="2" selected="selected">www.2.com/1.html</option>
+                    <option value="">www.1.com/1.html</option>
+                    <option value="">www.1.com/1.html</option>
+                    <option value="">www.1.com/1.html</option>
+                    <option value="">www.1.com/1.html</option>
+                    <option value="">www.1.com/1.html</option>
+                    <option value="">www.1.com/1.html</option>
+                    <option value="">www.1.com/1.html</option>
+                    <option value="">www.1.com/1.html</option>
+                    <option value="">www.1.com/1.html</option>
+                    <option value="">www.1.com/1.html</option>
+                    <option value="">www.1.com/1.html</option>
+                    <option value="">www.1.com/1.html</option>
+                    <option value="">www.1.com/1.html</option>
+                    <option value="">www.1.com/1.html</option>
+                    <option value="">www.1.com/1.html</option>
+                    <option value="">www.1.com/1.html</option>
+                    <option value="">www.1.com/1.html</option>
+                </select>
+            </div>
         </div>
     </div>
 
@@ -182,8 +217,8 @@
         <p>博简网站管理系统</p>
     </div>
 
-
-
+  <script src="../js/jquery-3.3.1.min.js"></script>
+  <script src="../js/inline.js"></script>
 </body>
 
 </html>
