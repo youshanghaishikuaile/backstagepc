@@ -32,60 +32,6 @@
     width: 100px;
     margin: 50px 35%
  }
- .annotation{
-    border-width: 0px;
-    position: absolute;
-    width: 1px;
-    height: 1px;
-}
-.fir{
-    left: 373px;
-    top: -6px;
-}
-.sen{
-    left: 657px;
-    top: 64px;
-}
-.thr{
-    left: 657px;
-    top: 118px;  
-}
-.four{
-    left: 371px;
-    top: -6px;
-}
-.five{
-    left: 374px;
-    top: -6px;
-}
-.sex{
-    left: 564px;
-    top: 274px;
-}
-.sev{
-    left: 503px;
-    bottom: 27px;
-}
-.annnoteimage{
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    font-size: 0px;
-    cursor: help;
-    width: 13px;
-    height: 12px;
-    padding-top: 1px;
-    text-align: center;
-    background-color: #3399cc;
-    box-shadow: 1px 1px 3px #aaa;
-}
-.annnoteline{
-    display: inline-block;
-    width: 9px;
-    height: 1px;
-    border-bottom: 1px solid white;
-    margin-top: 2px;
-}
 .input-group .form-control{
     z-index: 0;
 }
