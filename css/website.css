@@ -181,3 +181,114 @@
     height: 750px;
     width: 80%;
 }
+.tip{
+    display: none;
+    position: fixed;
+    top: 30%;
+    left: 40%;
+    z-index: 666;
+    width: 300px;
+    height: 170px;
+    background-color: #F2F2F2;
+    text-align: center;
+}
+.column{
+    display: none;
+    position: fixed;
+    top: 7%;
+    left: 10%;
+    z-index: 667;
+    width: 800px;
+    height: 480px;
+    background-color: #F2F2F2;
+}
+.column header{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.columnsel{
+    height: 26px;
+    width: 178px;
+}
+.close{
+    font-size: 30px;
+    opacity: .5;
+}
+article{
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: center;
+}
+.set{
+    width: 86%;
+}
+.example{
+    font-size: 12px;
+    text-indent: 58px;
+}
+.checkboxs input{
+    margin-left: 10px;
+}
+.cbr{
+    text-indent: 60px;
+}
+.checkfooter{
+    text-indent: 90px;
+}
+.checkfooter input{
+    margin-left: 44px;
+}
+.ct{
+    margin: 30px 40%;
+}
+.table{
+    text-align: center;
+}
+.weblist1,.weblist2{
+    display: none;
+    width: 20%;
+}
+.weblist1{
+    position: fixed;
+    top: 15%;
+    right: 10%;
+    z-index: 668;
+    background-color: #ccc;
+}
+.weblist2{
+    position: fixed;
+    top: 23%;
+    right: 7%;
+    z-index: 669;
+    background-color: #ccc;
+}
+.contenttest{
+    display: none;
+    position: fixed;
+    background-color: #fff;
+    top: 13%;
+    right: 15%;
+    z-index: 670;
+}
+p{
+    margin: 0;
+}
+.txt{
+    height: 320px;
+    width: 320px;
+}
+.closeWeb1,.closeWeb2,.closeTxt{
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 30px;
+    opacity: .5;
+    cursor: pointer;
+}

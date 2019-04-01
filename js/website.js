@@ -1,0 +1,32 @@
+$(function(){
+    $('.btn').click(function(){
+        $('.tip').show()
+    })
+    $('#hide').click(function(){
+        $('.tip').hide()
+    })
+    $('.add').click(function(){
+        $('.column').show()
+    })
+    $('.close').click(function(){
+        $('.column').hide()
+    })
+    $('.test').click(function(){
+        $('.weblist1').show()
+    })
+    $('.getlink').click(function(){
+        $('.weblist2').show()
+    })
+    $('.article').click(function(){
+        $('.contenttest').show()
+    })
+    $('.closeWeb1').click(function(){
+        $('.weblist1').hide()
+    })
+    $('.closeWeb2').click(function(){
+        $('.weblist2').hide()
+    })
+    $('.closeTxt').click(function(){
+        $('.contenttest').hide()
+    })
+})
