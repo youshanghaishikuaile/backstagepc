@@ -12,56 +12,82 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="container-fluid">
-            <div id="main" style="width:1150px;height:400px;"></div>
-            <div>
-                <table class="table table-bordered">
-                    <tr>
-                        <th>蜘蛛访问明细</th>
-                        <th>2019年3月19日</th>
-                        <th colspan="3">(全部:199223) (百度:192222) (360:1999222) (搜狗:1992892839) (神马:277237)</th>
-                        <!-- <th></th>
+    <header class="myhed">
+        <h1 class="mylog">博简网站管理</h1>
+        <span class="mytitle">首页</span>
+    </header>
+    <div class="mybody">
+        <div class="mynav">
+            <ul>
+                <li><a href="">系统首页</a></li>
+                <li><a href="">网站管理</a></li>
+                <li><a href="">网站分类</a></li>
+                <li><a href="">内连管理</a></li>
+                <li><a href="">泛内连</a></li>
+                <li><a href="">内容优化</a></li>
+                <li><a href="">内容管理</a></li>
+                <li><a href="">蜘蛛管理</a></li>
+                <li><a href="">工具管理</a></li>
+                <li><a href="">外链管理</a></li>
+            </ul>
+        </div>
+        <div class="container  mycontent">
+            <div class="container-fluid">
+                <div id="main" style="width:1150px;height:400px;"></div>
+                <div>
+                    <table class="table table-bordered">
+                        <tr>
+                            <th>蜘蛛访问明细</th>
+                            <th>2019年3月19日</th>
+                            <th colspan="3">(全部:199223) (百度:192222) (360:1999222) (搜狗:1992892839) (神马:277237)</th>
+                            <!-- <th></th>
                         <th></th> -->
-                    </tr>
-                    <tr>
-                        <td>id</td>
-                        <td>ip地址</td>
-                        <td>爬虫名称</td>
-                        <td>访问地址</td>
-                        <td>模板名称</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>168.192.1.1</td>
-                        <td>百度</td>
-                        <td>http://www.baidu.com/list/yule/123.html</td>
-                        <td>百度模板</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>168.192.1.1</td>
-                        <td>百度</td>
-                        <td>http://www.baidu.com/list/yule/123.html</td>
-                        <td>百度模板</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>168.192.1.1</td>
-                        <td>百度</td>
-                        <td>http://www.baidu.com/list/yule/123.html</td>
-                        <td>百度模板</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>168.192.1.1</td>
-                        <td>百度</td>
-                        <td>http://www.baidu.com/list/yule/123.html</td>
-                        <td>百度模板</td>
-                    </tr>
-                </table>
+                        </tr>
+                        <tr>
+                            <td>id</td>
+                            <td>ip地址</td>
+                            <td>爬虫名称</td>
+                            <td>访问地址</td>
+                            <td>模板名称</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>168.192.1.1</td>
+                            <td>百度</td>
+                            <td>http://www.baidu.com/list/yule/123.html</td>
+                            <td>百度模板</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>168.192.1.1</td>
+                            <td>百度</td>
+                            <td>http://www.baidu.com/list/yule/123.html</td>
+                            <td>百度模板</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>168.192.1.1</td>
+                            <td>百度</td>
+                            <td>http://www.baidu.com/list/yule/123.html</td>
+                            <td>百度模板</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>168.192.1.1</td>
+                            <td>百度</td>
+                            <td>http://www.baidu.com/list/yule/123.html</td>
+                            <td>百度模板</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
         </div>
+    </div>
+
+
+    <div class="myfooter">
+        <p>版权信息XXX</p>
+        <p>博简网站管理系统</p>
     </div>
     <script>
         var myChart = echarts.init(document.getElementById('main'));
