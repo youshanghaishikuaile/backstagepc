@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>首页</title>
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../css/index.css">
     <script src="../js/echarts.js"></script>
@@ -25,7 +25,7 @@
                                 <a href="./website.html">
                                     <li>网站管理</li>
                                 </a>
-                                <a href="">
+                                <a href="./webclass.html">
                                     <li>网站分类</li>
                                 </a>
                                 <a href="./contact.html">
@@ -56,67 +56,60 @@
     <div class="container  mycontent" id="pageindexbd">
         <div class="container-fluid">
             <div class="box">
-                <div>
-                    <table class="table table-bordered">
+                <div style="width:300px;height:300px;" class="block">
+                    <table class="table table-bordered textsizi" >
                         <caption>系统信息</caption>
                         <tr>
-                            <th>版本信息</th>
+                            <td>版本信息</td>
                             <td>集群网站管理系统 1.1版本</td>
                         </tr>
                         <tr>
-                            <th>域名统计</th>
+                            <td>域名统计</td>
                             <td>1000域名</td>
                         </tr>
                         <tr>
-                            <th>蜘蛛统计</th>
+                            <td>蜘蛛统计</td>
                             <td>100000蜘蛛</td>
                         </tr>
                         <tr>
-                            <th>磁盘空间</th>
+                            <td>磁盘空间</td>
                             <td>剩余空间多少g</td>
                         </tr>
                         <tr>
-                            <th>权限检查</th>
+                            <td>权限检查</td>
                             <td>必要开启读取写入的权限目录</td>
                         </tr>
                         <tr>
-                            <th>静态页缓存</th>
+                            <td>静态页缓存</td>
                             <td>开启/关闭</td>
                         </tr>
                     </table>
                 </div>
-                <div id="main" style="width:400px;height:300px;"></div>
-                <div class="sencend">
-                    <table class="table table-bordered">
-                        <caption>系统信息</caption>
+                <div id="main" style="width:400px;height:300px;" class="block"></div>
+                <div class="sencend block" style="width:300px;height:200px;">
+                    <table class="table table-bordered textsizi">
+                        <caption>登入信息</caption>
                         <tr>
-                            <th>版本信息</th>
-                            <td>集群网站管理系统 1.1版本</td>
+                            <td>登入用户</td>
+                            <td>admin</td>
                         </tr>
                         <tr>
-                            <th>域名统计</th>
-                            <td>1000域名</td>
+                            <td>上次登入时间</td>
+                            <td>2019年3月16日</td>
                         </tr>
                         <tr>
-                            <th>蜘蛛统计</th>
-                            <td>100000蜘蛛</td>
+                            <td>上次登入ip地址</td>
+                            <td>192.168.1.1</td>
                         </tr>
                         <tr>
-                            <th>磁盘空间</th>
-                            <td>剩余空间多少g</td>
-                        </tr>
-                        <tr>
-                            <th>权限检查</th>
-                            <td>必要开启读取写入的权限目录</td>
-                        </tr>
-                        <tr>
-                            <th>静态页缓存</th>
-                            <td>开启/关闭</td>
+                            <td>项目群</td>
+                            <td>88888888</td>
                         </tr>
                     </table>
                 </div>
-                <div class="four">
-                    <table class="table table-bordered">
+                <div id="list" style="width:1030px;height:400px;"></div>
+                <div class="four" style="width:220px;">
+                    <table class="table table-bordered textsizi">
                         <caption>文章采集信息</caption>
                         <tr>
                             <td>
@@ -204,7 +197,7 @@
                         </tr>
                     </table>
                 </div>
-                <div id="list" style="width:1030px;height:400px;"></div>
+                
             </div>
         </div>
     </div>
