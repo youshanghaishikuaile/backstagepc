@@ -11,143 +11,168 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="input-group">
-            <span class="input-group-addon">添加域名</span>
-            <input type="text" class="form-control">
+    <header class="myhed">
+        <h1 class="mylog">博简网站管理</h1>
+        <span class="mytitle">首页</span>
+    </header>
+    <div class="mybody">
+        <div class="mynav">
+            <ul>
+                <li><a href="">系统首页</a></li>
+                <li><a href="">网站管理</a></li>
+                <li><a href="">网站分类</a></li>
+                <li><a href="">内连管理</a></li>
+                <li><a href="">泛内连</a></li>
+                <li><a href="">内容优化</a></li>
+                <li><a href="">内容管理</a></li>
+                <li><a href="">蜘蛛管理</a></li>
+                <li><a href="">工具管理</a></li>
+                <li><a href="">外链管理</a></li>
+            </ul>
         </div>
-        <div class="input-group">
-            <span class="input-group-addon">添加域名</span>
-            <select class="selects">
-                <option value="novel">小说类</option>
-                <option value="Journalism">新闻类</option>
-                <option value="article">文章类</option>
-                <option value="game">游戏类</option>
-                <option value="enterprise">企业类</option>
-                <option value="bbs">论坛类</option>
-            </select>
-            <input class="btn btn-default" type="button" value="创建新的分类">
-        </div>
-        <div class="input-group">
-            <span class="input-group-addon">选择模板</span>
-            <select class="selectIitem">
-                <option value="novel">List Item1</option>
-                <option value="Journalism">List Item2</option>
-                <option value="article">List Item3</option>
-                <option value="game">List Item4</option>
-                <option value="enterprise">List Item5</option>
-                <option value="bbs">List Item6</option>
-                <option value="bbs">List Item7</option>
-            </select>
-        </div>
-        <div class="input-group">
-            <span class="input-group-addon">tkd设置</span>
-            <div class="row">
-                <div class="col-lg-4 col-md-4"><input type="text" class="form-control" placeholder="设置首页标题"></div>
-                <div class="col-lg-4 col-md-4"><input type="text" class="form-control" placeholder="设置关键词"></div>
-                <div class="col-lg-4 col-md-4"><input type="text" class="form-control" placeholder="设置描述"></div>
+        <div class="container mycontent">
+            <div class="input-group">
+                <span class="input-group-addon">添加域名</span>
+                <input type="text" class="form-control">
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">添加域名</span>
+                <select class="selects">
+                    <option value="novel">小说类</option>
+                    <option value="Journalism">新闻类</option>
+                    <option value="article">文章类</option>
+                    <option value="game">游戏类</option>
+                    <option value="enterprise">企业类</option>
+                    <option value="bbs">论坛类</option>
+                </select>
+                <input class="btn btn-default" type="button" value="创建新的分类">
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">选择模板</span>
+                <select class="selectIitem">
+                    <option value="novel">List Item1</option>
+                    <option value="Journalism">List Item2</option>
+                    <option value="article">List Item3</option>
+                    <option value="game">List Item4</option>
+                    <option value="enterprise">List Item5</option>
+                    <option value="bbs">List Item6</option>
+                    <option value="bbs">List Item7</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">tkd设置</span>
+                <div class="row">
+                    <div class="col-lg-4"><input type="text" class="form-control" placeholder="设置首页标题"></div>
+                    <div class="col-lg-4"><input type="text" class="form-control" placeholder="设置关键词"></div>
+                    <div class="col-lg-4"><input type="text" class="form-control" placeholder="设置描述"></div>
+                </div>
+            </div>
+            <div class="input-group columnsetup">
+                <span class="input-group-addon">栏目设置</span>
+                <input type="text" class="form-control columinput">
+                <p>添加栏目</p>
             </div>
         </div>
-        <div class="input-group columnsetup">
-            <span class="input-group-addon">栏目设置</span>
-            <input type="text" class="form-control columinput">
-            <p>添加栏目</p>
+        <div class="container">
+            <div class="row list">
+                <div class="col-md-3">
+                    名称 <input type="text" placeholder="栏目1">
+                </div>
+                <div class="col-md-3 lanmu">
+                    连接 <input type="text" placeholder="lanmu1">
+                    <div class="annotation">
+                        <div class="annnoteimage">
+                            <div class="annnoteline"></div>
+                            <div class="annnoteline"></div>
+                            <div class="annnoteline"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" value="有设置采集规则" class="haveset"><input type="button" value="修改">
+                </div>
+            </div>
+            <div class="row list">
+                <div class="col-md-3">
+                    名称 <input type="text" placeholder="栏目1">
+                </div>
+                <div class="col-md-3 lanmu">
+                    连接 <input type="text" placeholder="lanmu1">
+                    <div class="annotation">
+                        <div class="annnoteimage">
+                            <div class="annnoteline"></div>
+                            <div class="annnoteline"></div>
+                            <div class="annnoteline"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" value="有设置采集规则" class="haveset"><input type="button" value="修改">
+                </div>
+            </div>
+            <div class="row list">
+                <div class="col-md-3">
+                    名称 <input type="text" placeholder="栏目1">
+                </div>
+                <div class="col-md-3 lanmu">
+                    连接 <input type="text" placeholder="lanmu1">
+                    <div class="annotation">
+                        <div class="annnoteimage">
+                            <div class="annnoteline"></div>
+                            <div class="annnoteline"></div>
+                            <div class="annnoteline"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" value="有设置采集规则" class="haveset"><input type="button" value="修改">
+                </div>
+            </div>
+            <div class="row list">
+                <div class="col-md-3">
+                    名称 <input type="text" placeholder="栏目1">
+                </div>
+                <div class="col-md-3 lanmu">
+                    连接 <input type="text" placeholder="lanmu1">
+                    <div class="annotation">
+                        <div class="annnoteimage">
+                            <div class="annnoteline"></div>
+                            <div class="annnoteline"></div>
+                            <div class="annnoteline"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" value="有设置采集规则" class="haveset"><input type="button" value="修改">
+                </div>
+            </div>
+            <div class="row list">
+                <div class="col-md-3">
+                    名称 <input type="text" placeholder="栏目1">
+                </div>
+                <div class="col-md-3 lanmu">
+                    连接 <input type="text" placeholder="lanmu1">
+                    <div class="annotation">
+                        <div class="annnoteimage">
+                            <div class="annnoteline"></div>
+                            <div class="annnoteline"></div>
+                            <div class="annnoteline"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" value="没有设置采集规则" class="noset"><input type="button" value="修改">
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <input type="button" value="保存" class="save">
         </div>
     </div>
-    <div class="container">
-        <div class="row list">
-            <div class="col-md-3">
-                名称 <input type="text" placeholder="栏目1">
-            </div>
-            <div class="col-md-3 lanmu">
-                连接 <input type="text" placeholder="lanmu1">
-                <div class="annotation">
-                    <div class="annnoteimage">
-                        <div class="annnoteline"></div>
-                        <div class="annnoteline"></div>
-                        <div class="annnoteline"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <input type="text" value="有设置采集规则" class="haveset"><input type="button" value="修改">
-            </div>
-        </div>
-        <div class="row list">
-            <div class="col-md-3">
-                名称 <input type="text" placeholder="栏目1">
-            </div>
-            <div class="col-md-3 lanmu">
-                连接 <input type="text" placeholder="lanmu1">
-                <div class="annotation">
-                    <div class="annnoteimage">
-                        <div class="annnoteline"></div>
-                        <div class="annnoteline"></div>
-                        <div class="annnoteline"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <input type="text" value="有设置采集规则" class="haveset"><input type="button" value="修改">
-            </div>
-        </div>
-        <div class="row list">
-            <div class="col-md-3">
-                名称 <input type="text" placeholder="栏目1">
-            </div>
-            <div class="col-md-3 lanmu">
-                连接 <input type="text" placeholder="lanmu1">
-                <div class="annotation">
-                    <div class="annnoteimage">
-                        <div class="annnoteline"></div>
-                        <div class="annnoteline"></div>
-                        <div class="annnoteline"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <input type="text" value="有设置采集规则" class="haveset"><input type="button" value="修改">
-            </div>
-        </div>
-        <div class="row list">
-            <div class="col-md-3">
-                名称 <input type="text" placeholder="栏目1">
-            </div>
-            <div class="col-md-3 lanmu">
-                连接 <input type="text" placeholder="lanmu1">
-                <div class="annotation">
-                    <div class="annnoteimage">
-                        <div class="annnoteline"></div>
-                        <div class="annnoteline"></div>
-                        <div class="annnoteline"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <input type="text" value="有设置采集规则" class="haveset"><input type="button" value="修改">
-            </div>
-        </div>
-        <div class="row list">
-            <div class="col-md-3">
-                名称 <input type="text" placeholder="栏目1">
-            </div>
-            <div class="col-md-3 lanmu">
-                连接 <input type="text" placeholder="lanmu1">
-                <div class="annotation">
-                    <div class="annnoteimage">
-                        <div class="annnoteline"></div>
-                        <div class="annnoteline"></div>
-                        <div class="annnoteline"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <input type="text" value="没有设置采集规则" class="noset"><input type="button" value="修改">
-            </div>
-        </div>
-    </div>
-    <div class="footer">
-      <input type="button" value="保存" class="save">
+
+    <div class="myfooter">
+        <p>版权信息XXX</p>
+        <p>博简网站管理系统</p>
     </div>
 </body>
 

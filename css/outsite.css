@@ -77,7 +77,6 @@
 .mycontent{
     float: left;
     margin:20px;
-    border: 1px solid black;
     height: 750px;
     width: 80%;
 }
@@ -88,7 +87,6 @@
 
 .mycont{
     width: 30%;
-    border: 1px solid black;
     float: left;
     height: 100%;
 }
@@ -175,6 +173,25 @@ overflow: hidden;
 }
 .qchcbtn{
     display: block;
-    width:30%;
-    height: 30px;
+    width:33%;
+    height: 25px;
+    font-size: 12px;
+}
+.qcbtn{
+    border: 1px solid black;
+    display: inline-block;
+    font-size: 12px;
+    width: 25%;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+.qchcbod ul{
+    padding: 0;
+    margin: 0 0 50px 0;
+}
+.qchcbod ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 12px;
 }

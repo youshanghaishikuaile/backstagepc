@@ -11,43 +11,68 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="input-group">
-            <span class="input-group-addon">选择网站</span>
-            <select class="selectlist">
-                <option value="novel">www.baidu.com</option>
-                <option value="Journalism">www.baidu.com</option>
-                <option value="article">www.baidu.com</option>
-            </select>
+    <header class="myhed">
+        <h1 class="mylog">博简网站管理</h1>
+        <span class="mytitle">首页</span>
+    </header>
+    <div class="mybody">
+        <div class="mynav">
+            <ul>
+                <li><a href="">系统首页</a></li>
+                <li><a href="">网站管理</a></li>
+                <li><a href="">网站分类</a></li>
+                <li><a href="">内连管理</a></li>
+                <li><a href="">泛内连</a></li>
+                <li><a href="">内容优化</a></li>
+                <li><a href="">内容管理</a></li>
+                <li><a href="">蜘蛛管理</a></li>
+                <li><a href="">工具管理</a></li>
+                <li><a href="">外链管理</a></li>
+            </ul>
         </div>
-        <div>
-            <div class="input-group col-lg-5 col-md-6">
-                <span class="input-group-addon">远程内容</span>
-                <input type="text" class="form-control" placeholder="这里输入远程内容地址 如127.0.0.1">
+        <div class="container mycontent">
+            <div class="input-group">
+                <span class="input-group-addon">选择网站</span>
+                <select class="selectlist">
+                    <option value="novel">www.baidu.com</option>
+                    <option value="Journalism">www.baidu.com</option>
+                    <option value="article">www.baidu.com</option>
+                </select>
+            </div>
+            <div>
+                <div class="input-group col-lg-5">
+                    <span class="input-group-addon">远程内容</span>
+                    <input type="text" class="form-control" placeholder="这里输入远程内容地址 如127.0.0.1">
+                </div>
+            </div>
+            <div class="sameworld">
+                <span>&nbsp;&nbsp;近&nbsp;&nbsp;&nbsp;义&nbsp;&nbsp;&nbsp;词&nbsp;</span>
+                <textarea name="" id="" cols="52" rows="10" style="vertical-align: top"></textarea>
+            </div>
+            <div class="footer">
+                <span>相关内容</span>
+                <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox1" value="option1">内容关联标题
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox2" value="option2">内容标题打乱
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox3" value="option3">随机插入关键词
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox3" value="option3">随机插入汉字
+                </label>
+            </div>
+            <div>
+                <input type="button" value="保存" class="save">
             </div>
         </div>
-        <div class="sameworld">
-            <span>&nbsp;&nbsp;近&nbsp;&nbsp;&nbsp;义&nbsp;&nbsp;&nbsp;词&nbsp;</span>
-            <textarea name="" id="" cols="52" rows="10" style="vertical-align: top"></textarea>
-        </div>
-        <div class="footer">
-            <span>相关内容</span>
-            <label class="checkbox-inline">
-                <input type="checkbox" id="inlineCheckbox1" value="option1">内容关联标题
-            </label>
-            <label class="checkbox-inline">
-                <input type="checkbox" id="inlineCheckbox2" value="option2">内容标题打乱
-            </label>
-            <label class="checkbox-inline">
-                <input type="checkbox" id="inlineCheckbox3" value="option3">随机插入关键词
-            </label>
-            <label class="checkbox-inline">
-                <input type="checkbox" id="inlineCheckbox3" value="option3">随机插入汉字
-            </label>
-        </div>
-        <div>
-            <input type="button" value="保存" class="save">
-        </div>
+    </div>
+
+    <div class="myfooter">
+        <p>版权信息XXX</p>
+        <p>博简网站管理系统</p>
     </div>
 </body>
 

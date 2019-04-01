@@ -11,83 +11,34 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="input-group">
-            <span class="input-group-addon">选择网站</span>
-            <select class="selectlist">
-                <option value="novel">List Item1</option>
-                <option value="Journalism">List Item2</option>
-                <option value="article">List Item3</option>
-            </select>
-            <div class="annotation fir">
-                <div class="annnoteimage">
-                    <div class="annnoteline"></div>
-                    <div class="annnoteline"></div>
-                    <div class="annnoteline"></div>
-                </div>
-            </div>
+    <header class="myhed">
+        <h1 class="mylog">博简网站管理</h1>
+        <span class="mytitle">首页</span>
+    </header>
+    <div class="mybody">
+        <div class="mynav">
+            <ul>
+                <li><a href="">系统首页</a></li>
+                <li><a href="">网站管理</a></li>
+                <li><a href="">网站分类</a></li>
+                <li><a href="">内连管理</a></li>
+                <li><a href="">泛内连</a></li>
+                <li><a href="">内容优化</a></li>
+                <li><a href="">内容管理</a></li>
+                <li><a href="">蜘蛛管理</a></li>
+                <li><a href="">工具管理</a></li>
+                <li><a href="">外链管理</a></li>
+            </ul>
         </div>
-        <div>
-            <div class="input-group col-lg-5">
-                <span class="input-group-addon">远程内容</span>
-                <input type="text" class="form-control" placeholder="这里输入远程内容地址 如127.0.0.1">
-            </div>
-            <div class="annotation sen">
-                <div class="annnoteimage">
-                    <div class="annnoteline"></div>
-                    <div class="annnoteline"></div>
-                    <div class="annnoteline"></div>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="input-group col-lg-5">
-                <span class="input-group-addon">关键词</span>
-                <input type="text" class="form-control" placeholder="这里输入远程内容地址 如127.0.0.1">
-            </div>
-            <div class="annotation thr">
-                <div class="annnoteimage">
-                    <div class="annnoteline"></div>
-                    <div class="annnoteline"></div>
-                    <div class="annnoteline"></div>
-                </div>
-            </div>
-        </div>
-        <div class="input-group">
-            <span class="input-group-addon">模板管理</span>
-            <select class="selectlist">
-                <option value="novel">模板风格1</option>
-                <option value="Journalism">模板风格2</option>
-                <option value="article">模板风格3</option>
-            </select>
-            <div class="annotation four">
-                <div class="annnoteimage">
-                    <div class="annnoteline"></div>
-                    <div class="annnoteline"></div>
-                    <div class="annnoteline"></div>
-                </div>
-            </div>
-        </div>
-        <div class="input-group">
-            <span class="input-group-addon">工具管理</span>
-            <select class="selectlist">
-                <option value="novel">ping开关</option>
-                <option value="Journalism">开</option>
-                <option value="article">关</option>
-            </select>
-            <div class="annotation five">
-                <div class="annnoteimage">
-                    <div class="annnoteline"></div>
-                    <div class="annnoteline"></div>
-                    <div class="annnoteline"></div>
-                </div>
-            </div>
-        </div>
-        <div class="footer">
-            <div class="automatic">
-                <article>自动推送</article>
-                <textarea name="" id="" cols="39" rows="10" placeholder="这里是自动推送js代码 有填写则引入到模板代码中 没有则不引入"></textarea>
-                <div class="annotation sex">
+        <div class="container mycontent">
+            <div class="input-group">
+                <span class="input-group-addon">选择网站</span>
+                <select class="selectlist">
+                    <option value="novel">List Item1</option>
+                    <option value="Journalism">List Item2</option>
+                    <option value="article">List Item3</option>
+                </select>
+                <div class="annotation fir">
                     <div class="annnoteimage">
                         <div class="annnoteline"></div>
                         <div class="annnoteline"></div>
@@ -95,33 +46,12 @@
                     </div>
                 </div>
             </div>
-            <div class="initiative">
-                <article>主动推送</article>
-                <div>
-                    <input type="text" placeholder="这里填写域名">
-                    <input type="text" placeholder="这里填写token">
+            <div>
+                <div class="input-group col-lg-5">
+                    <span class="input-group-addon">远程内容</span>
+                    <input type="text" class="form-control" placeholder="这里输入远程内容地址 如127.0.0.1">
                 </div>
-                <textarea name="" id="" cols="51" rows="7" placeholder="这里是推送url规则"></textarea>
-            </div>
-        </div>
-        <div>
-            <div class="input-group col-lg-5 col-md-5">
-                <span class="input-group-addon">外链管理</span>
-                <div class="row">
-                    <div class="col-lg-8 col-md-8"><input type="file" class="form-control"></div>
-                    <div class="col-lg-3 col-md-3"><input type="button" class="form-control" value="预览文件"></div>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="input-group col-lg-7">
-                <span class="input-group-addon">缓存管理</span>
-                <div class="row">
-                    <div class="col-lg-8 col-md-6 cache"><input type="text" class="form-control" placeholder="这里是缓存路径"></div>
-                    <div class="col-lg-3 col-md-6" style="padding-top: 10px;"><input type="radio">用户访问不缓存</div>
-                </div>
-                <div class="box">选择文件夹</div>
-                <div class="annotation sev">
+                <div class="annotation sen">
                     <div class="annnoteimage">
                         <div class="annnoteline"></div>
                         <div class="annnoteline"></div>
@@ -129,10 +59,108 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div>
-            <input type="button" value="保存提交" class="save">
+            <div>
+                <div class="input-group col-lg-5">
+                    <span class="input-group-addon">关键词</span>
+                    <input type="text" class="form-control" placeholder="这里输入远程内容地址 如127.0.0.1">
+                </div>
+                <div class="annotation thr">
+                    <div class="annnoteimage">
+                        <div class="annnoteline"></div>
+                        <div class="annnoteline"></div>
+                        <div class="annnoteline"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">模板管理</span>
+                <select class="selectlist">
+                    <option value="novel">模板风格1</option>
+                    <option value="Journalism">模板风格2</option>
+                    <option value="article">模板风格3</option>
+                </select>
+                <div class="annotation four">
+                    <div class="annnoteimage">
+                        <div class="annnoteline"></div>
+                        <div class="annnoteline"></div>
+                        <div class="annnoteline"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">工具管理</span>
+                <select class="selectlist">
+                    <option value="novel">ping开关</option>
+                    <option value="Journalism">开</option>
+                    <option value="article">关</option>
+                </select>
+                <div class="annotation five">
+                    <div class="annnoteimage">
+                        <div class="annnoteline"></div>
+                        <div class="annnoteline"></div>
+                        <div class="annnoteline"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="automatic">
+                    <article>自动推送</article>
+                    <textarea name="" id="" cols="39" rows="10"
+                        placeholder="这里是自动推送js代码 有填写则引入到模板代码中 没有则不引入"></textarea>
+                    <div class="annotation sex">
+                        <div class="annnoteimage">
+                            <div class="annnoteline"></div>
+                            <div class="annnoteline"></div>
+                            <div class="annnoteline"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="initiative">
+                    <article>主动推送</article>
+                    <div>
+                        <input type="text" placeholder="这里填写域名">
+                        <input type="text" placeholder="这里填写token">
+                    </div>
+                    <textarea name="" id="" cols="51" rows="7" placeholder="这里是推送url规则"></textarea>
+                </div>
+            </div>
+            <div>
+                <div class="input-group col-lg-5">
+                    <span class="input-group-addon">外链管理</span>
+                    <div class="row">
+                        <div class="col-lg-8"><input type="file" class="form-control"></div>
+                        <div class="col-lg-3"><input type="button" class="form-control" value="预览文件"></div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="input-group col-lg-7">
+                    <span class="input-group-addon">缓存管理</span>
+                    <div class="row">
+                        <div class="col-lg-8 col-md-6 cache"><input type="text" class="form-control"
+                                placeholder="这里是缓存路径"></div>
+                        <div class="col-lg-3 col-md-6" style="padding-top: 10px;"><input type="radio">用户访问不缓存</div>
+                    </div>
+                    <div class="box">选择文件夹</div>
+                    <div class="annotation sev">
+                        <div class="annnoteimage">
+                            <div class="annnoteline"></div>
+                            <div class="annnoteline"></div>
+                            <div class="annnoteline"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <input type="button" value="保存提交" class="save">
+            </div>
         </div>
     </div>
+
+    <div class="myfooter">
+        <p>版权信息XXX</p>
+        <p>博简网站管理系统</p>
+    </div>
 </body>
+
 </html>
