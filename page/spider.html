@@ -5,63 +5,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>蜘蛛管理</title>
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../css/spider.css">
     <script src="../js/echarts.js"></script>
 </head>
 
 <body>
-    <div class="container">
-        <div class="container-fluid">
-            <div id="main" style="width:1150px;height:400px;"></div>
-            <div>
-                <table class="table table-bordered">
-                    <tr>
-                        <th>蜘蛛访问明细</th>
-                        <th>2019年3月19日</th>
-                        <th colspan="3">(全部:199223) (百度:192222) (360:1999222) (搜狗:1992892839) (神马:277237)</th>
-                        <!-- <th></th>
+    <header class="myhed">
+        <h1 class="mylog">博简网站管理</h1>
+        <span class="mytitle">首页</span>
+    </header>
+    <div class="mybody">
+        <div class="mynav">
+                <ul>
+                        <a href="./index.html">
+                            <li>系统首页</li>
+                        </a>
+                        <a href="./demo.html">
+                            <li>网站管理</li>
+                        </a>
+                        <a href="">
+                            <li>网站分类</li>
+                        </a>
+                        <a href="./contact.html">
+                            <li>内连管理</li>
+                        </a>
+                        <a href="./inline.html">
+                            <li>泛内连</li>
+                        </a>
+                        <a href="./content.html">
+                            <li>内容优化</li>
+                        </a>
+                        <a href="./manage.html">
+                            <li>内容管理</li>
+                        </a>
+                        <a href="./spider.html">
+                            <li>蜘蛛管理</li>
+                        </a>
+                        <a href="./tool.html">
+                            <li>工具管理</li>
+                        </a>
+                        <a href="./outsite.html">
+                            <li>外链管理</li>
+                        </a>
+                    </ul>
+        </div>
+        <div class="container  mycontent">
+            <div class="container-fluid">
+                <div id="main" style="width:1150px;height:400px;"></div>
+                <div>
+                    <table class="table table-bordered">
+                        <tr>
+                            <th>蜘蛛访问明细</th>
+                            <th>2019年3月19日</th>
+                            <th colspan="3">(全部:199223) (百度:192222) (360:1999222) (搜狗:1992892839) (神马:277237)</th>
+                            <!-- <th></th>
                         <th></th> -->
-                    </tr>
-                    <tr>
-                        <td>id</td>
-                        <td>ip地址</td>
-                        <td>爬虫名称</td>
-                        <td>访问地址</td>
-                        <td>模板名称</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>168.192.1.1</td>
-                        <td>百度</td>
-                        <td>http://www.baidu.com/list/yule/123.html</td>
-                        <td>百度模板</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>168.192.1.1</td>
-                        <td>百度</td>
-                        <td>http://www.baidu.com/list/yule/123.html</td>
-                        <td>百度模板</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>168.192.1.1</td>
-                        <td>百度</td>
-                        <td>http://www.baidu.com/list/yule/123.html</td>
-                        <td>百度模板</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>168.192.1.1</td>
-                        <td>百度</td>
-                        <td>http://www.baidu.com/list/yule/123.html</td>
-                        <td>百度模板</td>
-                    </tr>
-                </table>
+                        </tr>
+                        <tr>
+                            <td>id</td>
+                            <td>ip地址</td>
+                            <td>爬虫名称</td>
+                            <td>访问地址</td>
+                            <td>模板名称</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>168.192.1.1</td>
+                            <td>百度</td>
+                            <td>http://www.baidu.com/list/yule/123.html</td>
+                            <td>百度模板</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>168.192.1.1</td>
+                            <td>百度</td>
+                            <td>http://www.baidu.com/list/yule/123.html</td>
+                            <td>百度模板</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>168.192.1.1</td>
+                            <td>百度</td>
+                            <td>http://www.baidu.com/list/yule/123.html</td>
+                            <td>百度模板</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>168.192.1.1</td>
+                            <td>百度</td>
+                            <td>http://www.baidu.com/list/yule/123.html</td>
+                            <td>百度模板</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
         </div>
+    </div>
+
+
+    <div class="myfooter">
+        <p>版权信息XXX</p>
+        <p>博简网站管理系统</p>
     </div>
     <script>
         var myChart = echarts.init(document.getElementById('main'));
