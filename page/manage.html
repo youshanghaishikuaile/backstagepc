@@ -11,84 +11,110 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="container-fluid">
-            <div class="input-group">
-                <span class="input-group-addon">选择网站</span>
-                <div class="row" style="width: 200px">
-                    <div class="col-lg-4 col-md-10">
-                        <select class="selectlist">
-                            <option value="novel">www.baidu.com</option>
-                            <option value="Journalism">www.baidu.com</option>
-                            <option value="article">www.baidu.com</option>
-                        </select>
+    <header class="myhed">
+        <h1 class="mylog">博简网站管理</h1>
+        <span class="mytitle">首页</span>
+    </header>
+    <div class="mybody">
+        <div class="mynav">
+            <ul>
+                <li><a href="">系统首页</a></li>
+                <li><a href="">网站管理</a></li>
+                <li><a href="">网站分类</a></li>
+                <li><a href="">内连管理</a></li>
+                <li><a href="">泛内连</a></li>
+                <li><a href="">内容优化</a></li>
+                <li><a href="">内容管理</a></li>
+                <li><a href="">蜘蛛管理</a></li>
+                <li><a href="">工具管理</a></li>
+                <li><a href="">外链管理</a></li>
+            </ul>
+        </div>
+        <div class="container mycontent">
+            <div class="container-fluid">
+                <div class="input-group">
+                    <span class="input-group-addon">选择网站</span>
+                    <div class="row" style="width: 200px">
+                        <div class="col-lg-4">
+                            <select class="selectlist">
+                                <option value="novel">www.baidu.com</option>
+                                <option value="Journalism">www.baidu.com</option>
+                                <option value="article">www.baidu.com</option>
+                            </select>
+                        </div>
                     </div>
-                </div>
-                <span class="input-group-addon">选择栏目</span>
-                <div class="row">
-                    <div class="col-lg-6 col-md-10">
-                        <select class="selectlist">
-                            <option value="novel">娱乐</option>
-                            <option value="Journalism">看书</option>
-                            <option value="article">健身</option>
-                        </select>
+                    <span class="input-group-addon">选择栏目</span>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <select class="selectlist">
+                                <option value="novel">娱乐</option>
+                                <option value="Journalism">看书</option>
+                                <option value="article">健身</option>
+                            </select>
+                        </div>
+                        <div>
+                            <button class="btn btn-default btn-sm" type="submit">查看</button>
+                        </div>
                     </div>
-                    <div>
-                        <button class="btn btn-default btn-sm" type="submit">查看</button>
-                    </div>
-                </div>
 
-            </div>
-            <div class="row">
-                <div class="col-lg-5 col-md-5">
+                </div>
+                <div class="row">
+                    <div class="col-lg-5">
                         <p class="title" style="margin: 0">标题</p>
-                    <div class="input-group" style="margin-top: 0">
-                        <input type="text" class="form-control" value="小男孩和妈妈一起坐地铁，乖巧的样子太可爱，网友：真是太懂事了">
-                        <input type="text" class="form-control" value="小男孩和妈妈一起坐地铁，乖巧的样子太可爱，网友：真是太懂事了">
-                        <input type="text" class="form-control" value="小男孩和妈妈一起坐地铁，乖巧的样子太可爱，网友：真是太懂事了">
+                        <div class="input-group" style="margin-top: 0">
+                            <input type="text" class="form-control" value="小男孩和妈妈一起坐地铁，乖巧的样子太可爱，网友：真是太懂事了a">
+                            <input type="text" class="form-control">
+                            <input type="text" class="form-control">
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                        <p class="time bar" style="margin: 0">入库时间</p>
-                    <div class="input-group" style="margin-top: 0">
-                        <input type="text" class="form-control" value="2019/3/19 13:14:59">
-                        <input type="text" class="form-control" value="2019/3/19 13:14:59">
-                        <input type="text" class="form-control" value="2019/3/19 13:14:59">
+                    <div class="col-lg-2">
+                        <p class="time" style="margin: 0">入库时间</p>
+                        <div class="input-group" style="margin-top: 0">
+                            <input type="text" class="form-control" value="2019/3/19 13:14:59">
+                            <input type="text" class="form-control">
+                            <input type="text" class="form-control">
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-1 col-md-1">
-                        <p class="column bar" style="margin: 0">所属栏目</p>
-                    <div class="input-group" style="margin-top: 0">
-                        <input type="text" class="form-control" value="娱乐">
-                        <input type="text" class="form-control" value="娱乐">
-                        <input type="text" class="form-control" value="娱乐">
+                    <div class="col-lg-1">
+                        <p class="column" style="margin: 0">所属栏目</p>
+                        <div class="input-group" style="margin-top: 0">
+                            <input type="text" class="form-control" value="娱乐">
+                            <input type="text" class="form-control">
+                            <input type="text" class="form-control">
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                        <p class="time bar" style="margin: 0">所属网站</p>
-                    <div class="input-group" style="margin-top: 0">
-                        <input type="text" class="form-control" value="www.baidu.com">
-                        <input type="text" class="form-control" value="www.baidu.com">
-                        <input type="text" class="form-control" value="www.baidu.com">
+                    <div class="col-lg-2">
+                        <p class="time" style="margin: 0">所属网站</p>
+                        <div class="input-group" style="margin-top: 0">
+                            <input type="text" class="form-control" value="www.baidu.com">
+                            <input type="text" class="form-control">
+                            <input type="text" class="form-control">
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-1 col-md-1">
-                        <p class="column bar" style="margin: 0">修改</p>
-                    <div class="input-group" style="margin-top: 0">
-                        <input type="button" class="form-control" value="修改" id="radius">
-                        <input type="button" class="form-control" id="radius"  value="修改">
-                        <input type="button" class="form-control" id="radius"  value="修改">
+                    <div class="col-lg-1">
+                        <p class="column" style="margin: 0">修改</p>
+                        <div class="input-group" style="margin-top: 0">
+                            <input type="button" class="form-control" value="修改" id="radius">
+                            <input type="button" class="form-control" id="radius">
+                            <input type="button" class="form-control" id="radius">
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-1 col-md-1">
-                        <p class="column bar" style="margin: 0">删除</p>
-                    <div class="input-group" style="margin-top: 0">
-                        <input type="button" class="form-control bgr cor" value="删除" id="radius">
-                        <input type="button" class="form-control bgr cor" id="radius" value="删除">
-                        <input type="button" class="form-control bgr cor" id="radius" value="删除">
+                    <div class="col-lg-1">
+                        <p class="column" style="margin: 0">删除</p>
+                        <div class="input-group" style="margin-top: 0">
+                            <input type="button" class="form-control " value="删除" id="radius">
+                            <input type="button" class="form-control " id="radius">
+                            <input type="button" class="form-control " id="radius">
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+        </div>
+
+        <div class="myfooter">
+            <p>版权信息XXX</p>
+            <p>博简网站管理系统</p>
         </div>
 </body>
 
