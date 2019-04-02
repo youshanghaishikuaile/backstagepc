@@ -1,6 +1,4 @@
-/* body{
-    width: 1800px;
-} */
+
 .container-fluid {
     margin-left: 40px;
 }
@@ -41,34 +39,6 @@
 
 .container{
     margin-top: 20px;
-}
-.annotation{
-    border-width: 0px;
-    position: absolute;
-    left: 217px;
-    top: -6px;
-    width: 1px;
-    height: 1px;
-}
-.annnoteimage{
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    font-size: 0px;
-    cursor: help;
-    width: 13px;
-    height: 12px;
-    padding-top: 1px;
-    text-align: center;
-    background-color: #138CDD;
-    box-shadow: 1px 1px 3px #aaa;
-}
-.annnoteline{
-    display: inline-block;
-    width: 9px;
-    height: 1px;
-    border-bottom: 1px solid white;
-    margin-top: 2px;
 }
 .haveset{
     color: #00CCCC;

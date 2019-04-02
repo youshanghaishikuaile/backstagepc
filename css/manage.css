@@ -32,7 +32,10 @@
   border-radius: 0;
 }
 #radius{
-    border-radius: 8px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    padding: 3px 19px;
+    margin-left: 29px;
 }
 .bgr{
     background-color: darkgrey;
@@ -50,16 +53,31 @@
     height: 80px;
     background-color: #3399cc;
 }
-.myfooter p{
-    color: black;
-    height: 14px;
-    line-height: 14px;
+.contentBox input{
     text-align: center;
-    font-size: 14px;
-    padding-top: 5px;
+    margin-top: 15px;
 }
-
-
+.tipBox{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.txtBox{
+    width: 39%;
+    margin-left: 18px;
+}
+.timeBox{
+    width: 13.5%;
+    margin-left: 30px;
+}
+.columnBox{
+    width: 5.5%;
+    margin-left: 31px;
+}
+.webBox{
+    width: 13.5%;
+    margin-left: 30px;
+}
 .mynav{
     float: left;
     margin:  20px 30px;
@@ -123,4 +141,7 @@
     border: 1px solid black;
     height: 750px;
     width: 80%;
+}
+.bgc{
+    background-color: #FF0000;
 }

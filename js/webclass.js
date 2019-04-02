@@ -1,0 +1,17 @@
+$(function(){
+    $('.remove').click(function(){
+        $(this).parent().remove()
+    })
+    $('.seeWeb').click(function(){
+        $('.webBox').show()
+    })
+    $('.close').click(function(){
+        $('.webBox').hide()
+    })
+    $('.openCode').click(function(){
+        $('.ganraoma').show()
+    })
+    $('.closeCode').click(function(){
+        $('.ganraoma').hide()
+    })
+})
